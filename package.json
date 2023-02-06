@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc":"tsc"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +18,8 @@
     "inquirer": "^9.1.4",
     "nodemon": "^2.0.20",
     "ytdl-core": "^4.11.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
   }
 }
